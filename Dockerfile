@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 AS codeql_base
+FROM debian:10.9-slim AS codeql_base
 LABEL maintainer="Github codeql team"
 
 # tzdata install needs to be non-interactive
